@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+
+    <div class="header">
+        <button onclick="handleClick()">
+            <img src="./img/bars-solid.svg" alt="barra">
+        </button>
+        
+        <button class="aumentar" onclick="aumentarButton()">
+            <h1>AUMENTAR</h1>
+        </button>
+        
+        <button class="diminuir" onclick="diminuirButton()">
+            <h1>DIMINUIR</h1>
+        </button>
+        
+    </div>
+
+    <div id="menuLateral" class="side-bar">
+        <a href="">LINK</a>
+        <a href="">LINK</a>
+        <a href="">LINK</a>
+        <a href="">LINK</a>
+    </div>
+
+    <div class="quadrado" id="quadrado">
+
+    </div>
+
+    <script>
+
+        let menu = document.getElementById("menuLateral")
+
+        function handleClick(){
+                if (menu.style.marginLeft == '0px'){
+                    // console.log('OK')
+                    menu.style.marginLeft = '-250px'
+                } else {
+                    menu.style.marginLeft = '0px'
+                }
+        }
+
+        let aumentar = document.getElementById("quadrado")
+
+        function aumentarButton(){
+                if (aumentar.style.width == '250px'){
+                    aumentar.style.width = '500px'
+                } else {
+                    aumentar.style.width = '250px'
+                }
+        }
+        let diminuir = document.getElementById("quadrado")
+
+        function diminuirButton(){
+                if (diminuir.style.width == '250px'){
+                    diminuir.style.width = '200px'
+                } else {
+                    diminuir.style.width = '250px'
+                }
+        }
+    </script>
+</body>
+</html>

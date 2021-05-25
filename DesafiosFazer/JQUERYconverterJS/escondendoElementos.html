@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$("button.esconder").click(function(){
+  			 	 	$(".teste").hide();
+          });
+			});
+      
+            $(document).ready(function(){
+  				$("button.aparecer").click(function(){
+  			 	 	$(".teste").show();
+          });
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Titulo da pagina</h2>
+		<p class="teste">Primeiro paragrafo</p>
+		<p id="teste">Segundo paragrafo</p>
+
+		<button class="esconder">Clique aqui para esconder os paragrafos</button>
+        <button class="aparecer">Clique aqui para mostrar os paragrafos</button>
+	</body>
+</html>
+
+<!-- Criar um programa onde haja a criação de dois títulos e dois parágrafos. Na sequencia deverá ter um botão para apagar um título e um 
+    parágrafo e outro botão para que os parágrafos que foram apagados possam ser visualizados novamente.
+ -->

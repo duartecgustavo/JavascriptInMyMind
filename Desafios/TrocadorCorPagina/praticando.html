@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="Praticando.js"> -->
+</head>
+<body>
+
+    <label for="opc1">
+        <input type="radio" id="opc1" name="cor">
+        Vermelho
+    </label>
+    <label for="opc2">
+        <input type="radio" id="opc2" name="cor">
+        Azul
+    </label>
+
+    <button onclick="trocar()">Trocar</button>
+    <script>
+
+        function trocar(){
+
+        let opc1 = document.getElementById("opc1")
+        
+        let opc2 = document.getElementById("opc2")
+
+        if (opc1.checked){
+            document.body.style = "background: red"
+        } else {
+            document.body.style = "background: blue"
+        }
+        }
+    </script>
+
+
+    <!-- <script>
+        // console.log(window.innerWidth);
+        // console.log(window.innerHeight);
+        // console.log(screen.width);
+        // window.onresize = function(){
+        //     console.log(window.innerWidth);
+        let dataHoraAtual = new Date();
+            console.log(dataHoraAtual)
+            // Sat Oct 10 2020 16:47:39 GMT-0300 (Horário Padrão de Brasília)
+
+        function horaFormatada(){
+            let data = new Date();
+
+            let hora = data.getHours();
+            let minuto = data.getMinutes();
+            let segundo = data.getSeconds();
+
+            let horaPronta = hora + ':' + minuto + ':' + segundo;
+        }
+    </script> -->
+
+</body>
+</html>

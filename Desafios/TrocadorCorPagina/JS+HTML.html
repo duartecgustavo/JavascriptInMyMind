@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de testes de JavaScript</title>
+
+    <style>
+        button{
+            width: 100px;
+            height: 50px;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+        }
+        .btn-1{
+            background-color: blue;
+        }
+        .btn-2{
+            background-color: red;
+        }
+        .btn-3{
+            background-color: green;
+        }
+    </style>
+
+</head>
+<body>
+
+<section> <!-- SELECIONAR ELEMENTOS DE HTML COM JAVASCRIPT -->
+    <div>
+        <h1 id="titulo"> Esse é o H1! </h1>
+        <h1 id="titulo2"> Esse é o TITULO OFICIAL </h1>
+    </div>
+
+    <div>
+        <p id="paragrafo">  Esse é o primeiro parágrafo.</p>
+        <p id="paragrafo">  Esse é o segundo parágrafo.</p>
+    </div>
+
+    <script>
+        //seletor de ID, estou atribuindo a um ID meu script
+
+        /*let h1  = document.getElementById('h1')
+        h1.style.color="blue"
+
+        let p = document.getElementById("paragrafo")
+        p.style.color="green"*/
+
+        let h1 = document.querySelectorAll("#titulo2")
+        h1
+
+        let p = document.querySelectorAll(".paragrafo")
+        p
+    </script>
+</section>
+
+<section> <!-- EVENTOS -->
+
+    <button id="btn1" class="btn-1" onmouseover="btn1()">AZUL</button>
+    <button id="btn2" class="btn-2" onmouseout="btn2()">RED</button>
+    <button id="btn3" class="btn-3" onclick="btn3()">VERDE</button>
+
+    <script>
+        function btn1(){
+            document.body.style.background="blue"
+        }
+        function btn2(){
+            document.body.style.background="red"
+        }
+        function btn3(){
+            document.body.style.background="green"
+        }
+        
+    </script>
+
+</section>
+    
+</body>
+</html>

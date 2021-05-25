@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--  Criar um formulário (HTML), uma função que recebe os dados 
+        (nome, idade, profissão) de um usuário e transforma esses dados 
+        em um objeto literal dinamicamente. Exibir os atributos do objeto. -->
+
+    <form action="" style="display: grid;">
+        <input type="text" placeholder="nome" id="nome">
+        <input type="number" placeholder="idade" id="idade">
+        <input type="text" placeholder="profissão" id="profissao">
+        <button onclick="criarOBJ()" id="criarObjeto">Criar objeto</button>
+    </form>
+    
+
+    <script>
+        function criarOBJ(){ 
+            let nome = document.getElementById('nome').value
+            let idade = document.getElementById('idade').value
+            let profissao = document.getElementById('profissao').value
+
+            let obj = {
+                nome: nome,
+                idade: idade,
+                profissao: profissao
+            }
+
+            document.write(`${obj.nome} & ${obj.idade} & ${obj.profissao}`)
+        }
+
+    </script>
+
+
+</body>
+</html>

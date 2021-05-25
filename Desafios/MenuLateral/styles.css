@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    --height: 60px;
+    background-color: #6363eb;
+    padding: 8px 26px;
+}
+.header img{
+    width: 40px;
+}
+.header button{
+    background: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.side-bar{
+    width: 250px;
+    height: 800px;
+    background-color: burlywood;
+    box-shadow: 1px 1px 6px black;
+    display: inline-block;
+}
+.side-bar a{
+    display: block;
+    padding: 26px 26px;
+    border: 2px black solid;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.side-bar a:hover{
+    background-color: blueviolet;
+}
+
+.quadrado{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: burlywood;
+    display: inline-block;
+}
+.header .aumentar{
+    margin-left: 140px;
+    padding: 5px;
+    border: 2px black solid;
+    cursor: pointer;
+    vertical-align: 80%;
+    display: inline-block;
+}
+.header .diminuir{
+    padding: 10px;
+    border: 2px black solid;
+    cursor: pointer;
+    vertical-align: 80%;
+    display: inline-block;
+}

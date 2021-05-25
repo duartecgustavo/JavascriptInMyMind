@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$("button#btn1").click(function(){
+  			 	 	alert("Texto:" + $("#teste").text());
+          });
+			});
+      
+            $(document).ready(function(){
+  				$("button#btn2").click(function(){
+                    alert("HTML:" + $("#teste").html());
+          });
+			});
+		</script>
+	</head>
+	<body>
+		<p id="teste">Isto está em <b>negrito</b> e não está!</p>
+
+		<button id="btn1">Exibir texto</button>
+        <button id="btn2">Exibir HTML</button>
+	</body>
+</html>
