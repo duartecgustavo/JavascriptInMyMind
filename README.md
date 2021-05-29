@@ -2,4 +2,4 @@
 
 --- 
 
-<img  style="margin: 10px 40px, width: 100px" src="https://user-images.githubusercontent.com/65131471/120073561-4109db80-c06f-11eb-9b31-724b78e41910.png">
+<img align="center" style="margin: 10px 40px, width: 80%" src="https://user-images.githubusercontent.com/65131471/120073642-9d6cfb00-c06f-11eb-8919-8204d07e3c46.jpg">
