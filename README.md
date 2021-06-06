@@ -5,7 +5,7 @@
 Conheça o meu repositório sobre JavaScript, minha idéia aqui é não só criar um espaço para guardar códigos, mas também compartilhar o conhecimento que venho adquirindo  de forma facil e intuitiva, para quando eu ou você quiser buscar alguma informação especifica.
 
 
-Neste repositório você pode encontrar minha lista de exercicios que estou atualizando conforme avanço e evoluo na linguagem.
+Neste repositório você pode encontrar minha lista de exercícios que estou atualizando conforme avanço e evoluo na linguagem.
 
 * [Curta história sobre **Javascript**](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/short-history-python.md) :open_book:
 * [Zen do **Javascript**](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/zen-of-javascript.md)	:snake:
