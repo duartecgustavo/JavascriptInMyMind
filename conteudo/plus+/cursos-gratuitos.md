@@ -9,7 +9,7 @@ Pelas interwebs podemos encontrar muito conteúdo bom e totalmente gratuito. Aqu
 
 * [Rocketseat - O gui estelar de Javascript](https://app.rocketseat.com.br/node/o-guia-estelar-de-java-script) :play_or_pause_button:
 
-* [Livro - Javascript O Guia Definitivo ](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/JavaScript%20O%20Guia%20Definitivo.pdf) :blue_book:
+* [David Flanagan - Javascript O Guia Definitivo ](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/JavaScript%20O%20Guia%20Definitivo.pdf) :blue_book:
 
 Abraços 🖖
 
