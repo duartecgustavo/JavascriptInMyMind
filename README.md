@@ -4,13 +4,13 @@
 
 Conheça o meu repositório sobre JavaScript, minha idéia aqui é não só criar um espaço para guardar códigos, mas também compartilhar o conhecimento que venho adquirindo  de forma facil e intuitiva, para quando eu ou você quiser buscar alguma informação especifica.
 
-
 Neste repositório você pode encontrar minha lista de exercícios que estou atualizando conforme avanço e evoluo na linguagem.
 
-* [Curta história sobre **Javascript**](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/short-history-python.md) :open_book:
-* [Zen do **Javascript**](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/zen-of-javascript.md)	:snake:
-* [Joguinhos](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/Joguinhos.md) :joystick:
-* [Sugestões de cursos gratuitos online](https://www.cursoemvideo.com/) :desktop_computer:	
+* [Curta história sobre **Javascript**](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/short-history-python.md) :open_book: **(To do)**
+* [Zen do **Javascript**](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/zen-of-javascript.md)	:rhinoceros:
+* [Joguinhos](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/Joguinhos.md) :joystick: **(To do)**
+* [Sugestões de cursos gratuitos online](https://www.cursoemvideo.com/) :desktop_computer: **(To do)**
+* [Livro - Javascript O Guia Definitivo ](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/JavaScript%20O%20Guia%20Definitivo.pdf) :blue_book:
 
 ---
 
