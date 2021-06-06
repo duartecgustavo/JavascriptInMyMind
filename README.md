@@ -9,7 +9,7 @@ Neste repositório você pode encontrar minha lista de exercícios que estou atu
 * [Curta história sobre **Javascript**](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/short-history-python.md) :open_book: **(To do)**
 * [Zen do **Javascript**](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/zen-of-javascript.md)	:rhinoceros:
 * [Joguinhos](https://github.com/duartecgustavo/Python-Progress/blob/master/conteudo/Joguinhos.md) :joystick: **(To do)**
-* [Sugestões de cursos gratuitos online](https://www.cursoemvideo.com/) :desktop_computer: **(To do)**
+* [Sugestões de cursos gratuitos online](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/cursos-gratuitos.md) :handshake:
 * [Livro - Javascript O Guia Definitivo ](https://github.com/duartecgustavo/JavascriptInMyMind/blob/main/conteudo/plus%2B/JavaScript%20O%20Guia%20Definitivo.pdf) :blue_book:
 
 ---
